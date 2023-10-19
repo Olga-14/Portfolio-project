@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SheCodes Portfolio</title>
+    <meta
+      name="description"
+      content="Olga is a front-end developer based in Ukraine. On this website you can find her new beggining in this area."
+    />
+    <title>Front-end developer - Olga Niedoviesova</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,8 +34,12 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Olga logo"
+          />
           <img
             src="images/logo-small.jpg"
             class="logo d-block d-md-none"
@@ -40,16 +48,16 @@
         </a>
         <ul>
           <li class="active">
-            <a href="/"> Home </a>
+            <a href="/" title="Homepage"> Home </a>
           </li>
           <li>
-            <a href="/about.html"> About </a>
+            <a href="/about.html" title="About Olga"> About </a>
           </li>
           <li>
-            <a href="/work.html"> Work </a>
+            <a href="/work.html" title="Olga's work"> Work </a>
           </li>
           <li>
-            <a href="/contact.html"> Contact </a>
+            <a href="/contact.html" title="Contact Olga"> Contact </a>
           </li>
         </ul>
       </nav>
@@ -59,14 +67,20 @@
       <h1>Olga Niedoviesova</h1>
       <h2 class="mb-5">Front-end developer based in Ukraine</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">My Projects</p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/yogurt.png" class="img-fluid" alt="" />
+          <img
+            src="images/yogurt.png"
+            class="img-fluid"
+            alt="Yogurt project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -76,7 +90,7 @@
               origin, named for its historical crescent shape. Croissants and
               other viennoiserie are made of a layered yeast-leavened dough
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -89,16 +103,24 @@
               origin, named for its historical crescent shape. Croissants and
               other viennoiserie are made of a layered yeast-leavened dough
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid" alt="" />
+          <img
+            src="images/weather.png"
+            class="img-fluid"
+            alt="Weather project preview"
+          />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="images/dictionary.png" class="img-fluid" alt="" />
+          <img
+            src="images/dictionary.png"
+            class="img-fluid"
+            alt="Dictionary app preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -108,36 +130,65 @@
               origin, named for its historical crescent shape. Croissants and
               other viennoiserie are made of a layered yeast-leavened dough
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
-      <footer>
-        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+      <footer class="container">
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3"> Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Olga"
+            >
+              Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:olga.niedoviesova@gmail.com" class="email-link"
+          <a
+            href="mailto:olga.niedoviesova@gmail.com"
+            class="email-link"
+            title="Email Olga"
             >olga.niedoviesova@gmail.com
           </a>
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.github.com/olganiedoviesova" target="_blank">
+          <a
+            href="https://www.github.com/olganiedoviesova"
+            title="Github page"
+            target="_blank"
+          >
             <i class="fab fa-github"></i>
           </a>
-          <a href="https://www.instagram.com/olganiedoviesova" target="_blank">
+          <a
+            href="https://www.instagram.com/olganiedoviesova"
+            title="Instagram page"
+            target="_blank"
+          >
             <i class="fab fa-instagram"></i>
           </a>
-          <a href="https://www.twitter.com/olganiedoviesova" target="_blank">
+          <a
+            href="https://www.twitter.com/olganiedoviesova"
+            title="Twitter page"
+            target="_blank"
+          >
             <i class="fab fa-twitter"></i>
           </a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Olga Niedovisova, and it is
+          <a href="https://github.com/Olga-14/Portfolio-project.git">
+            open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
